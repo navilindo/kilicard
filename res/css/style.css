@@ -20,7 +20,7 @@
 /* header */
 
 #top-header {
-    background-color: #1EB53A;
+    background-image: linear-gradient(to right, #1EB53A, #00A3DD);
     color : white;
 }
 
@@ -30,8 +30,18 @@
 /* footer */
 
 footer {
-    background-color: #00A3DD;
     color: white;
+    background-image: linear-gradient(to right, #1EB53A, #00A3DD);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer h3 {
+    font-weight: 800;
+    text-decoration: underline;
 }
 
 #copy-left {
