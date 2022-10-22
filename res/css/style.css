@@ -27,6 +27,11 @@
 
 /* main */
 
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .section-title {
     color: #00A3DD;
 }
