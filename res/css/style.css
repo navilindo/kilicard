@@ -19,6 +19,11 @@
 
 /* header */
 
+.top-nav-logo {
+    height: 50px;
+    width: 50px;
+}
+
 #top-header {
     background-image: linear-gradient(to right, #1EB53A, #00A3DD);
     color : white;
@@ -71,6 +76,11 @@ footer a {
 
 footer h5 {
     font-weight: 700;
+}
+
+.footer-logo {
+    height: 100px;
+    width: 100px;
 }
 
 #copy-left {
