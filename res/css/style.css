@@ -34,6 +34,7 @@ main {
 
 .section-title {
     color: #00A3DD;
+    font-weight: 500;
 }
 
 .section-title-icon {
@@ -53,9 +54,8 @@ footer a {
     text-decoration: none;
 }
 
-footer h3 {
-    font-weight: 800;
-    text-decoration: underline;
+footer h5 {
+    font-weight: 700;
 }
 
 #copy-left {
