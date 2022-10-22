@@ -24,6 +24,17 @@
     color : white;
 }
 
+/* jumbotron */
+
+.jumbo-header {
+    color:#00A3DD;
+    font-weight: 600;
+}
+
+.jumbotron .lead {
+    font-weight: 400;
+    color: #1EB53A;
+}
 
 /* main */
 
