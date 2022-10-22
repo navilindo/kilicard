@@ -26,6 +26,10 @@
 
 /* jumbotron */
 
+.jumbotron {
+    background-image: linear-gradient(to right, #e7e7e7, rgb(236, 234, 234));
+}
+
 .jumbo-header {
     color:#00A3DD;
     font-weight: 600;
