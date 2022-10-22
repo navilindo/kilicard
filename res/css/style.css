@@ -29,6 +29,11 @@
 
 /* footer */
 
+footer {
+    background-color: #00A3DD;
+    color: white;
+}
+
 #copy-left {
     background-color: #1EB53A;
     font-weight: 400;
