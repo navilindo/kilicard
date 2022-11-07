@@ -67,6 +67,10 @@ main {
     align-content: center;
 }
 
+#web-link {
+    color: #1EB53A;
+}
+
 /* footer */
 
 footer {
