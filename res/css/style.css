@@ -87,8 +87,8 @@ main {
 
 footer {
     color: white;
-    /* background-image: linear-gradient(to right, #1EB53A, #00A3DD); */
-    background-color: #00A3DD;
+    background-image: linear-gradient(to right, #1EB53A, #00A3DD);
+    /* background-color: #00A3DD; */
 }
 
 footer a {
@@ -107,6 +107,7 @@ footer h5 {
 
 #copy-left {
     background-color: #1EB53A;
+    background-color: black;
     font-weight: 400;
     color: white;
     padding-top: .5rem;
