@@ -43,6 +43,11 @@
 #jumbo-index {
     background-color: black;
 }
+
+#jumbo-images {
+    height: 200;
+    width: auto;
+}
 .jumbotron .lead {
     font-weight: 400;
     color: #1EB53A;
