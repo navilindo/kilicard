@@ -45,8 +45,9 @@
 }
 
 #jumbo-pics {
-    height: 200;
-    width: auto;
+    width: 200px;
+    height: auto;
+    margin-left: -30px;
 }
 .jumbotron .lead {
     font-weight: 400;
