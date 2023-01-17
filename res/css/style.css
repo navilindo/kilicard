@@ -24,7 +24,7 @@ body {
 
 .top-nav-logo {
     height: 50px;
-    width: 50px;
+    width: auto;
 }
 
 #top-header {
@@ -105,7 +105,7 @@ footer h5 {
 
 .footer-logo {
     height: 100px;
-    width: 100px;
+    width: auto;
 }
 
 #copy-left {
