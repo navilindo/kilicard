@@ -28,6 +28,10 @@ body {
     width: auto;
 }
 
+#web-logo {
+    height: 200px;
+    width: auto;
+}
 #top-header {
     background-image: linear-gradient(to right, #1EB53A, #00A3DD);
     color : white;
