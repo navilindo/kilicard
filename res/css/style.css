@@ -48,6 +48,7 @@ body {
 }
 
 .jumbo-text {
+    font-family: poppins;
     font-size: x-large;
 }
 #jumbo-pics {
@@ -69,7 +70,8 @@ main {
 
 .section-title {
     color: #00A3DD;
-    font-weight: 500;
+    font-family: poppins;
+    font-weight: 700;
 }
 
 .section-title-icon {
