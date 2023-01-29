@@ -40,8 +40,8 @@ body {
 }
 
 @keyframes logo {
-    from {opacity : 1%;}
-    to {opacity : 100%};
+    from {opacity : 25%; }
+    to {opacity : 100%; };
 }
 
 #top-header {
@@ -95,12 +95,12 @@ main {
 .constn {
     color: #00A3DD;
     animation-name: const;
-    animation-duration: 10s;
+    animation-duration: 4s;
 }
 
 @keyframes const {
-    from {opacity :12.5%;}
-    to {opacity : 100%}
+    from {color : green;}
+    to {opacity : gray}
 }
 
 .section-title-icon {
@@ -121,7 +121,7 @@ main {
 
 footer {
     color: white;
-    background-image: linear-gradient(to right, #85888a, #00A3DD);
+    background-image: linear-gradient(to right, #07324e, #00A3DD);
     /* background-color: #00A3DD; */
 }
 
