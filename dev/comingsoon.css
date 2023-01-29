@@ -1,0 +1,126 @@
+/* 
+    Kilimanjaro Card
+    Custom styles
+
+    Dev: Navilindo AM. 2022
+*/
+
+/* custom colors */
+
+/*
+    
+    green #1EB53A
+    blue #00A3DD
+*/
+
+/* general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top */
+
+/* header */
+
+.top-nav-logo {
+    height: 50px;
+    width: auto;
+}
+
+#web-logo {
+    height: 200px;
+    width: auto;
+}
+#top-header {
+    background-image: linear-gradient(to right, #1EB53A, #00A3DD);
+    color : white;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-image: linear-gradient(to right, #ffffff, rgb(255, 255, 255));
+}
+
+.jumbo-header {
+    color:#00A3DD;
+    font-weight: 600;
+}
+
+#jumbo-index {
+    background-color: black;
+}
+
+.jumbo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+}
+#jumbo-pics {
+    width: 200px;
+    height: auto;
+    margin-left: -30px;
+}
+.jumbotron .lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #00A3DD;
+}
+
+/* main */
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.section-title {
+    color: #00A3DD;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.section-title-icon {
+    color: #00A3DD;
+    font-size: 2rem;
+}
+
+#all-links {
+    
+    align-content: center;
+}
+
+#web-link {
+    color: #1EB53A;
+}
+
+/* footer */
+
+footer {
+    color: white;
+    background-image: linear-gradient(to right, #00A3DD, #1310eb);
+    /* background-color: #00A3DD; */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer h5 {
+    font-weight: 700;
+}
+
+.footer-logo {
+    height: 100px;
+    width: auto;
+}
+
+#copy-left {
+    background-color: #1EB53A;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
