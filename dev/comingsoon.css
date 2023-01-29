@@ -116,6 +116,10 @@ footer h5 {
     width: auto;
 }
 
+.social-link-icon {
+    font-size: x-large;
+}
+
 #copy-left {
     font-size: 1.2rem;
     background-color: #1EB53A;
