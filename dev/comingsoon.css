@@ -36,12 +36,12 @@ body {
     height: auto;
     width: auto;
     animation-name: logo;
-    animation-duration: 5s;
+    animation-duration: 10s;
 }
 
 @keyframes logo {
     from {opacity : 1%;}
-    to {opacity : 75%};
+    to {opacity : 100%};
 }
 
 #top-header {
@@ -94,6 +94,13 @@ main {
 
 .constn {
     color: #00A3DD;
+    animation-name: const;
+    animation-duration: 10s;
+}
+
+@keyframes const {
+    from {opacity :12.5%;}
+    to {opacity : 100%}
 }
 
 .section-title-icon {
