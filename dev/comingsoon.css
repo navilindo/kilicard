@@ -32,10 +32,18 @@ body {
     width: auto;
 }
 
-#web-logo {
-    height: 200px;
+#web-logo-soon {
+    height: auto;
     width: auto;
+    animation-name: logo;
+    animation-duration: 5s;
 }
+
+@keyframes logo {
+    from {opacity : 1%;}
+    to {opacity : 75%};
+}
+
 #top-header {
     background-image: linear-gradient(to right, #1EB53A, #00A3DD);
     color : white;
@@ -106,7 +114,7 @@ main {
 
 footer {
     color: white;
-    background-image: linear-gradient(to right, #85888a, #1310eb);
+    background-image: linear-gradient(to right, #85888a, #00A3DD);
     /* background-color: #00A3DD; */
 }
 
