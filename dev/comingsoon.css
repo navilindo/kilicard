@@ -19,6 +19,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 /* top */
 
 /* header */
