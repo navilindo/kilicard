@@ -116,10 +116,13 @@ footer h5 {
     width: auto;
 }
 
+.ft-social-icon {
+    font-size : 1.4rem;
+}
 #copy-left {
-    background-color: #1EB53A;
-    background-color: black;
-    font-weight: 400;
+    /* background-color: #1EB53A;
+    background-color: black; */
+    font-weight: 600;
     color: white;
     padding-top: .5rem;
     padding-bottom: .5rem;
