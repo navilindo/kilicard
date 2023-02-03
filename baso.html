@@ -23,15 +23,17 @@
 
         <header class="mb-auto" id="top-header">
 
-            <nav class="navbar navbar-expand-lg navbar-dark container pt-3 pb-3">
-                <!-- Navbar brand -->
-                <a class="navbar-brand" href="#">
-                 <img src="./res/images/logo/kilimanjaro-card-wordmark-web-white.png" alt="kilimanjaro-card-logo" class="top-nav-logo">
-                 </a>
-                <!-- Collapse button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="">
+                <!--Navbar-->
+                <nav class="navbar navbar-expand-lg navbar-dark container pt-3 pb-3">
+                   <!-- Navbar brand -->
+                   <a class="navbar-brand" href="./">
+                        <img src="./res/images/logo/kilimanjaro-card-wordmark-web-white.png" alt="kilimanjaro-card-logo" class="top-nav-logo">
+                   </a>
+                   <!-- Collapse button -->
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
 
                    <!-- Collapsible content -->
                    <div class="collapse navbar-collapse ml-auto" id="basicExampleNav">
@@ -40,19 +42,28 @@
                            <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                            </li>
-                           <li class="nav-item active">
+                           <!-- <li class="nav-item active">
                                <a class="nav-link" href="about.html">About
+                                    <span class="sr-only">(current)</span>
                                 </a>
-                           </li>
-                           <li class="nav-item">
+                           </li> -->
+                           <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="AboutDropdown" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">About</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="AboutDropdown">
+                                <a class="dropdown-item" href="introduction.html">Introduction</a>
+                                <a class="dropdown-item" href="howtoplay.html">How to Play</a>
+                                <a class="dropdown-item" href="about.html">Why Kilimanjaro Card</a>
+                            </div>
+                        </li>
+
+                           <!-- <li class="nav-item">
                                <a class="nav-link" href="#">Swahili</a>
-                           </li>
+                           </li> -->
                            <!-- Dropdown -->
                            <li class="nav-item dropdown">
                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                   aria-haspopup="true" aria-expanded="false">Games
-                                   <span class="sr-only">(current)</span>
-                                </a>
+                                   aria-haspopup="true" aria-expanded="false">Games</a>
                                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                                    <a class="dropdown-item" href="baso.html">Baso</a>
                                    <a class="dropdown-item" href="kotea.html">Kotea</a>
