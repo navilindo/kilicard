@@ -27,6 +27,11 @@ body {
     display: none;
 }
 
+.special-menu {
+    background-color: gray;
+    color : #00A3DD;
+}
+
 .home-menu:hover {
     display: block;
 }
