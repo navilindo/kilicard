@@ -23,6 +23,14 @@ body {
 
 /* header */
 
+.home-menu {
+    display: none;
+}
+
+.home-menu:hover {
+    display: block;
+}
+
 .top-nav-logo {
     height: 50px;
     width: auto;
