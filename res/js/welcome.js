@@ -1,7 +1,7 @@
-var text = ["Welcome Friend!", "Karibu Rafiki!", "مرحبا صديقى!"];
+var text = ["Welcome Friend!", "Karibu Rafiki!", "!مرحبا صديقى"];
 var counter = 0;
-var elem = document.getElementById("changeText");
-var inst = setInterval(change, 1000);
+var elem = document.getElementById("welcomeText");
+var inst = setInterval(change, 2000);
 
 function change() {
   elem.innerHTML = text[counter];
